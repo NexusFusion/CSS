@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add some padding */
+}
+
+/* Header Styling */
+header {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    font-size: 36px; /* Larger font size */
+    margin: 0; /* Remove margin */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #343a40; /* Dark gray background */
+    padding: 10px 0; /* Add padding */
+}
+
+nav ul {
+    list-style-type: none; /* Remove list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align navigation items */
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 20px; /* Add some space between items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px 0; /* Add padding */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Display items vertically */
+        margin: 10px 0; /* Add space between items */
+    }
+}
